@@ -16,6 +16,13 @@ const config: Config = {
   		},
   		colors: {}
   	},
+		fontFamily: {
+			alistaBlair: ['var(--font-poppins)', 'sans-serif'], // Use the correct variable name
+		},
+		fontWeight: {
+			regular: '400',
+			bold: '600',
+		},
   	colors: {
   		primary: '#235697',
   		black: '#000',
