@@ -7,8 +7,10 @@
     --radius: 0.5rem;
     --image: url('/images/pattern.png')
   }
+  html {
+    scroll-behavior: smooth;
+  }
 }
-
 
 html, body {
   width:100%;
